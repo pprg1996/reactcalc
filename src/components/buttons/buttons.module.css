@@ -1,0 +1,26 @@
+.buttonsDiv{
+  height:67%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.button{
+  border: none;
+  margin: 0;
+  font-size: 1.8rem;
+  background: #2D3749;
+  color: #E1E2E3;
+  font-family: "Montserrat";
+}
+
+.wideButton{
+  composes: button;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.opButton{
+  composes: button;
+  background-color: #C281E2;
+}
